@@ -10,9 +10,6 @@ import plotnine as pn
 from xgboost import XGBClassifier , XGBRegressor
 from sklearn.model_selection import GridSearchCV , cross_val_score
 
-
-os.chdir('C:\\Users\\domet\\Documents\\ecommerce')
-
 raw_df = pd.read_excel('online_retail_II.xlsx')
 names = ['Customer ID', 'Quantity', 'Price', 'InvoiceDate']
 
